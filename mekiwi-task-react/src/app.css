@@ -1,0 +1,75 @@
+.countryList {
+    width: 80%;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.countryList li {
+    list-style: none;
+    color: #EEFBFB;
+    line-height: 48px;
+    padding: 1px 0px;
+}
+
+.countryList li:nth-child(odd) {
+    background-color:  #203647;
+}
+
+.countryList li:nth-child(even) {
+    background-color: #4DA8DA;
+}
+
+.countryList li div {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.infoButton {
+    height: 40px;
+    background-color: #336699;
+    font-weight: bold;
+    border: 2px ridge #12232e;
+    border-radius: 10px 10px;
+    color:  white;
+}
+
+.infoButton:hover {
+    background-color: #003333;
+}
+
+/* Se flagi ei mene keskelle suurimmassa osassa, 
+koska siellä on pari flagia joiden rivissä maan nimi menee liian pitkälle, 
+hoksasin vasta kun kirjottelin kommentteja :D */
+
+.countryFlag {
+    width: 64px;
+    height: 48px;
+}
+
+.titleBar {
+    height: 100px;
+    font-size: 24px;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+.searchBar {
+    width: 60%;
+    margin: auto;
+    align-content: center;
+    margin-top: 10%;
+    height: 64px;
+    font-size: 32px;
+    border-radius: 10px 10px;
+    /* En normaalisti näin laiskasti laittais asetteluja, mutta en keksi enää mikä on vialla ja alkaa olla suht myöhä */
+    margin-left: 20%;
+}
+
+.wideDiv {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
